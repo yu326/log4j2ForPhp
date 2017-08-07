@@ -10,5 +10,9 @@
 include_once("../util/include.php");
 initLogger(LOGNAME_TEST);
 
+
+
+
+
 $logger->info(__FUNCTION__ . __FILE__ . __LINE__ . " the is a test info level data~");
 $logger->debug(__FUNCTION__ . __FILE__ . __LINE__ . " the is a test debug level data~");
